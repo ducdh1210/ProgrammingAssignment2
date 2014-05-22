@@ -22,11 +22,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-# INPUT: matrix object
-# OUTPUT: matrix which is the inverse of the matrix object's matrix
+# INPUT: x -- matrix object
+# OUTPUT: matrix which is the inverse of the x's matrix
 
 cacheSolve <- function(x, ...) {
-  ## Return a matrix that is the inverse of 'x'
+  # get the inverse matrix of x. If the inverse matrix is already computed, it returns the inverse matrix. If it is not already computed, then it will be :)
   inverseMatrix <- x$getInverseMatrix()
   
   # if the inverse matrix is already computed, then return it 
